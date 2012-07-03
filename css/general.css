@@ -32,7 +32,7 @@ h3 {
 .hand {
     font-family: 'Delius Swash Caps', sans-serif;
     font-weight:400;
-    color:#07cb35;
+    color:#007c02;
 }
 
 h2 {
@@ -74,8 +74,8 @@ h4 {
     font-weight:700;
     font-size:32px;
     padding:0;
-    margin-left:0;
-    color:#07cb35;
+    margin: 8px 0 0 20px !important;
+    color:#007c02;
 }
 
 .navbar .nav {
