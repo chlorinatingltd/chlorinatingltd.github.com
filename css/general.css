@@ -90,7 +90,6 @@ h5 {
 
 .navbar .brand {
   font-family: 'Pacifico', cursive;
-  font-weight:700;
   font-size:32px;
   padding:0;
   margin: 10px 0 0 20px !important;
@@ -103,11 +102,9 @@ h5 {
   font-weight: 700;
 }
 
-.navbar .nav .active a {
-  color:#fff;
-  text-shadow:none;
+.navbar .nav li a {
+  text-shadow: none !important;
 }
-
 
 .navbar .nav li a:hover {
     color:#000;
@@ -126,14 +123,13 @@ h5 {
         color-stop(1, rgb(244,244,244))
     );
     box-shadow:rgba(0,0,0,0.1) 0 1px 3px;
-    text-shadow:#fff 0 0 2px;
     -moz-border-radius: 15px;
     border-radius: 15px;
 }
 
 
 .navbar .nav .active a:hover {
-    background:#3ca3d7;
+    background:#007c02 !important;
     color:#fff;
     text-shadow:none;
     background-image: linear-gradient(top, rgb(146,219,255) 0%, rgb(79,182,233) 5%, rgb(57,160,211) 100%);
@@ -154,7 +150,11 @@ h5 {
     box-shadow:rgba(0,0,0,0.1) 0 1px 3px;
 }
 
-
+.navbar .nav .active a, .navbar .nav .active a:hover {
+  background:#007c02 !important;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
 
 /** ] ***/
 
