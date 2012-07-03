@@ -67,6 +67,14 @@ h5 {
   margin:40px 0;
 }
 
+.test {
+  margin: 0 0 50px;
+}
+
+.image {
+  float: right;
+}
+
 /** NAV **/
 
 .navbar {
@@ -373,7 +381,7 @@ form h4 {
 }
 
 .footer {
-    margin:30px 0;
+    margin:100px 0;
 }
 
 .footer p {
