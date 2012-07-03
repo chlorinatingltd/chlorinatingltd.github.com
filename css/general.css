@@ -1,5 +1,5 @@
 body {
-    background:#fcfcfc url("../img/bg/top.png") top left repeat-x;
+    background:#FCFCFC url("../img/bg/top.png") top left repeat-x;
     padding:40px 0 0;
     border-top:3px solid #ddd;
 }
@@ -30,18 +30,16 @@ h3 {
 }
 
 .hand {
-    font-family: 'Delius Swash Caps', sans-serif;
     font-weight:400;
     color:#007c02;
 }
 
 h2 {
-    text-align:center;
-    font-size:48px;
-    line-height:56px;
-    margin:15px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:400;
+  text-align:center;
+  font-size:25px;
+  line-height:36px;
+  margin:0;
+  font-weight:400;
 }
 
 
@@ -53,7 +51,14 @@ h4 {
     font-family:'Open Sans', sans-serif;
     font-weight:600;
     font-size:16px;
-    
+}
+
+h5 {
+  text-align:center;
+  font-size:25px;
+  line-height:36px;
+  margin:0 0 60px;
+  font-weight:400;
 }
 
 /** NAV **/
@@ -70,12 +75,12 @@ h4 {
 }
 
 .navbar .brand {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight:700;
-    font-size:32px;
-    padding:0;
-    margin: 8px 0 0 20px !important;
-    color:#007c02;
+  font-family: 'Pacifico', cursive;
+  font-weight:700;
+  font-size:32px;
+  padding:0;
+  margin: 10px 0 0 20px !important;
+  color:#007c02;
 }
 
 .navbar .nav {
@@ -134,12 +139,10 @@ h4 {
 
 
 
-/** FEATURE ***/
+/** ] ***/
 
 .feature {
-    margin-top:60px;
-    margin-bottom:60px;
-    text-align:center;
+  text-align:center;
 }
 
 .feature img {
@@ -163,7 +166,7 @@ h4 {
     -webkit-border-radius:3px;
     border-radius:3px;
     padding:60px 0;
-    margin-top:15px;
+    margin-top:40px;
     margin-bottom:60px;
 }
 
