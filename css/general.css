@@ -5,7 +5,8 @@ body {
 }
 
 p {
-    text-shadow:#fff 0 1px 0;
+  text-shadow:#fff 0 1px 0;
+  font-size: 14px;
 }
 
 a:link, a:visited {
@@ -59,6 +60,11 @@ h5 {
   line-height:36px;
   margin:0 0 60px;
   font-weight:400;
+}
+
+.extra {
+  font-family:'Open Sans', sans-serif;
+  margin:40px 0;
 }
 
 /** NAV **/
@@ -367,7 +373,7 @@ form h4 {
 }
 
 .footer {
-    margin-bottom:30px;
+    margin:30px 0;
 }
 
 .footer p {
